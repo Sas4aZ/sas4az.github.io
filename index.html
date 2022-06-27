@@ -3,8 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>git ad</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-black" style="">
 
+<header class="p-3 bg-black text-white">
+    <div class="container" >
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+<h1 class="text glitch is-glitching justify-content-lg-start" style="font-family: myFirstFont" data-text="Sashwat">Sashwat</h1>
+<!--                <img src="gg_black.png" width="312" height="144" alt="">-->
+
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+<!--                <li><a href="#" class="nav-link px-2 text-white " >About</a></li>-->
+            </ul>
+
+
+            <div class="text-end">
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                                    <li><a href="#" class="nav-link px-2 text-white " >Home</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white " >About</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white " >Projects</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="bg-black text-white ">
+    <h1  class="text-white" style="margin: auto ; align-content: center"> Hello, I am <span class="auto_input " style="color: red"> </span> </h1>
+
+</div>
+<button id="btn" class="btn btn-outline-light">Progress</button>
+
+<br>
+<br>
+<div class="progress" style="height: 1px;
+	background: rgba(0, 0, 0, 0.3)">
+    <div id="progress" class="progress-bar bg-blue-300 " role="progressbar" style="
+    height: 3px;
+	background: #08fdd8;
+	background: #fd2155;
+	background: -webkit-linear-gradient(left, #08fdd8 0%, #fd2155 100%);
+	background: -webkit-gradient(linear, left top, right top, from(#08fdd8), to(#fd2155));
+	background: -o-linear-gradient(left, #08fdd8 0%, #fd2155 100%);
+	background: linear-gradient(to right, #08fdd8 0%, #fd2155 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#08fdd8', endColorstr='#fd2155', GradientType=1);
+	width: 0;
+" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" ></div>
+</div>
 </body>
+<script src="javascript.js"></script>
+<script src="typed.js"></script>
+<script></script>
+<script>
+    var typed = new Typed(".auto_input", {
+        strings :[ "Sashwat", "a web designer", "juicer dragon fire breathing breathtaking memelord wizard", ],
+ backSpeed : 60, loop : true,
+        typeSpeed : 60, smartBackspace : true
+
+
+    });
+</script>
 </html>
